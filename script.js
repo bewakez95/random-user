@@ -40,6 +40,12 @@ const clickMe = () => {
   let drop = drp.value;
   fetchUser();
 };
+//Good way
+// const handleOngenderSelect = (e) => {
+//     const g = e.value;
+//     const url = `${apiEP}&gender=${g}`;
+//     fetchUser(url);
+// }
 
 fetchUser();
 
